@@ -4,5 +4,5 @@ module.exports = function(app){
     var jsonku = reuire('/controller');
 
     app.route('/')
-    .get(jsonku.index);
+        .get(jsonku.index);
 }
