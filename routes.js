@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = function(app){
-    var jsonku = reuire('/controller');
+    var jsonku = require('./controller');
 
     app.route('/')
         .get(jsonku.index);
